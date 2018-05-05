@@ -248,4 +248,8 @@ align-content: left;
    .myContainer {
        width: 90%;
    }
+
+   .me {
+       width: 100%;
+   }
 }
