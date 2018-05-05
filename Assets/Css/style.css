@@ -1,0 +1,251 @@
+.about {
+    float:left;
+    color:#777;
+    size: 18px;
+}
+
+.anav {
+    color: #777;
+    text-decoration: none;
+    padding: 1px;
+}
+
+article {
+    padding-bottom: 20px;
+}
+
+.bodyClass {
+    background-image: url("../../Images/light-grey-terrazzo.png");
+    /* Background pattern from Toptal Subtle Patterns */
+    position: relative;
+}
+
+br {
+    clear: both;
+}
+
+.button {
+background-color:  #4aaaa5;
+color:#fff;
+padding: 10px 20px 10px 20px;
+}
+
+form {
+    width: 100%;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-size: 36px;
+    padding: 10px;
+    text-align: left;
+  }
+
+.headClass {
+    align-self: center;
+    background-color:#fff ;
+    border: 1px;
+    border-bottom: 2px solid grey;
+    border-color: #4aaaa5;
+    clear: both;
+    color: #777;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    height:56px;
+    margin-bottom: 10px;
+    position:fixed;
+    text-decoration: none;
+    text-align: right;
+    width: 100%;
+}
+
+.headWidth {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: #4aaaa5;;
+    color: #ebebeb;
+}
+
+.line {
+    color: #777;
+    height:1px; 
+    width:100%; 
+}
+
+.fields, select, textarea{
+    align-content: left;
+    border: 1px solid #777; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    width: 100%;
+}
+
+.labelClass {
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+}
+
+.labelPhoto {
+    background: #4aaaa5;
+    bottom: 15px;
+    color: #ebebeb;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-size: 18px;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    width:195px;
+}
+
+.me {
+    float:left;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+
+.myContainer {
+    background:#ffffff;
+    border: 2px solid #ffffff;
+    clear: both;
+    color: #fff;
+    margin: 0 auto; 
+    min-height: 100%;
+    padding: 20px;
+    width: 960px;
+}
+
+#nav {
+    color: #777;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.pageTitle {
+    color: #4aaaa5;
+    font-size: 30px;
+    text-align: left;
+    width: 960px;
+}
+
+.photo1 {
+    float: left;
+    margin: 10px;
+    position:relative;
+}
+
+footer{
+    background-color:#777;
+    border-top: 5px solid #4aaaa5;
+    bottom: 0;
+    left: 0;
+    clear:both;
+    color: #ebebeb;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 45px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    article   {
+align-content: left;
+    }
+
+    .myContainer {
+        width: 700px;
+        margin: 0 left;
+
+    }
+    .headClass {
+        margin: 0 left;
+        width: 100%;
+    }
+    #nav {
+        width: 350px;
+    }
+
+    .headWidth {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .myContainer {
+        width: 70%;
+        margin: 0 left;
+    }
+
+    .headClass {
+        width: 100%;
+        background: #fff;
+        }
+
+    .headWidth {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+   .anav {
+    height: 28px;
+    text-align: center;
+   }
+
+   .headClass {
+    height: 100px;
+    position: static;
+    background: #fff;
+    width: 99%;
+   }
+
+   .headWidth {
+       width: 100%;
+       text-align: center;
+   }
+
+   h1 {
+       width: 100%;
+       text-align: center;
+       float: left;
+   }
+
+   .photo1 {
+       width: 90%;
+   }
+
+   #nav {
+       width:100%;
+       height: 50px;
+       text-align: center;
+       padding-top: 15px;
+   }
+
+   .myContainer {
+       width: 90%;
+   }
+}
