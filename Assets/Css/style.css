@@ -1,11 +1,6 @@
-.about {
-    float:left;
-    color:#777;
-    size: 18px;
-}
 
 .anav {
-    color: #777;
+    color: #002642;
     text-decoration: none;
     padding: 1px;
 }
@@ -14,160 +9,165 @@ article {
     padding-bottom: 20px;
 }
 
-.bodyClass {
-    background-image: url("../../Images/light-grey-terrazzo.png");
-    /* Background pattern from Toptal Subtle Patterns */
+body {
+    background-color: #E59500;
+    background-image: url('images/bg.jpg');
     position: relative;
-}
-
-br {
-    clear: both;
-}
-
-.button {
-background-color:  #4aaaa5;
-color:#fff;
-padding: 10px 20px 10px 20px;
-}
-
-form {
-    width: 100%;
+    display: flex;
+    height: 100vh;
 }
 
 h1 {
-    background-color: #4aaaa5;
-    color: white;
+    background-color: #002642;
+    color: #F7F9F9;
     float: left;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
-    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
     padding: 10px;
     text-align: left;
   }
 
+.about {
+    color:#02040F;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1.5em;
+    font-size: 1.15em;
+    float: left;
+    width: 95%;
+}
+
+.container {
+    background:#E5DADA;
+    color: #02040F;
+    margin: 0 auto; 
+    margin-top: 4em;
+    padding: 20px;
+    width: 85%;
+    top: 25px;
+    position: relative;
+    border-top: 1.2em solid #002642;
+    height: max-content;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts div {
+    display: flex;
+    flex-grow: 1;
+}
+
 .headClass {
-    align-self: center;
-    background-color:#fff ;
+    background-color:#E5DADA ;
     border: 1px;
     border-bottom: 2px solid grey;
-    border-color: #4aaaa5;
-    clear: both;
-    color: #777;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    height:56px;
+    border-color: #002642;
+    font-family: 'Oxygen', sans-serif;
+    height:60px;
     margin-bottom: 10px;
-    position:fixed;
+    position: fixed;
     text-decoration: none;
-    text-align: right;
     width: 100%;
+    z-index: 1;
+    justify-content: space-between;
 }
 
 .headWidth {
-    width: 90%;
+    width: 88%;
     margin: 0 auto;
 }
 
-a:hover {
-    background-color: #4aaaa5;;
-    color: #ebebeb;
-}
-
-.line {
-    color: #777;
-    height:1px; 
-    width:100%; 
-}
-
-.fields, select, textarea{
-    align-content: left;
-    border: 1px solid #777; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    color: #777;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 12px; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;
-    width: 100%;
-}
-
-.labelClass {
-    color:#777;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    text-align: left;
-    width: 100%;
+#nav a:hover {
+    background-color: #E59500;;
+    color: #E5DADA;
+    transition: 0.33s ease;
 }
 
 .labelPhoto {
-    background: #4aaaa5;
-    bottom: 15px;
-    color: #ebebeb;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
-    font-size: 18px;
-    padding: 15px;
+    background: #840032;
+    bottom: 55px;
+    color: #E5DADA;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    position: relative;
+    width:275px;
+    text-decoration: none;
+}
+
+.labelPhoto:hover {
+    background-color: #E59500;;
+    color: #E5DADA;
+    transition: 0.33s ease; 
+}
+
+.labelPhoto a {
+    color: #E5DADA;
+    text-decoration: none;
+}
+
+.photo1 i {
+    font-size: 46px;
+    background: #002642;
+    border-radius: 50%;
+    color: #E5DADA;
     position: absolute;
-    text-align: center;
-    width:195px;
+    bottom: 50px;
+    left: 220px;
+    border: 3px solid #002642;
+}
+
+.photo1 i:hover {
+    background-color: #E5DADA;;
+    color: #E59500;
+    transition: 0.33s ease;  
+    border-color: #E5DADA;
+}
+
+.labelText {
+    padding: 10px 0px 10px 10px;;
 }
 
 .me {
-    float:left;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
-    font-size: 18px;
     margin-bottom: 20px;
     margin-right: 20px;
-    width: 200px;
-}
-
-
-.myContainer {
-    background:#ffffff;
-    border: 2px solid #ffffff;
-    clear: both;
-    color: #fff;
-    margin: 0 auto; 
-    min-height: 100%;
-    padding: 20px;
-    width: 960px;
+    float: left;
 }
 
 #nav {
-    color: #777;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
+    color: #02040F;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    padding-top: 22px;
     text-decoration: none;
     text-align: right;
 }
 
 .pageTitle {
-    color: #4aaaa5;
-    font-size: 30px;
+    color: #13262F;
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
     text-align: left;
-    width: 960px;
+    margin-bottom: 0.5em;
+    width: 100%;
 }
 
 .photo1 {
+    margin: 15px;
     float: left;
-    margin: 10px;
-    position:relative;
+    position: relative;
 }
 
 footer{
-    background-color:#777;
-    border-top: 5px solid #4aaaa5;
+    background-color:#002642;
     bottom: 0;
-    left: 0;
-    clear:both;
     color: #ebebeb;
     height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    margin-top: 45px;
-    position: relative;
-    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+    position: fixed;
     width: 100%;
 }
 
@@ -176,37 +176,39 @@ footer{
 align-content: left;
     }
 
-    .myContainer {
-        width: 700px;
+    .container {
+        width: 80%;
         margin: 0 left;
-
     }
+
     .headClass {
         margin: 0 left;
         width: 100%;
+
     }
+
     #nav {
-        width: 350px;
+        width: 100%;
     }
 
     .headWidth {
-        width: 100%;
+        width: 90%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .myContainer {
-        width: 70%;
+    .container {
+        width: 100%;
         margin: 0 left;
     }
 
     .headClass {
         width: 100%;
-        background: #fff;
+        background: #E5DADA;
         }
 
     .headWidth {
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -218,9 +220,8 @@ align-content: left;
 
    .headClass {
     height: 100px;
-    position: static;
-    background: #fff;
-    width: 99%;
+    background: #E5DADA;
+    width: 100%;
    }
 
    .headWidth {
@@ -231,7 +232,6 @@ align-content: left;
    h1 {
        width: 100%;
        text-align: center;
-       float: left;
    }
 
    .photo1 {
@@ -242,14 +242,25 @@ align-content: left;
        width:100%;
        height: 50px;
        text-align: center;
-       padding-top: 15px;
    }
 
-   .myContainer {
-       width: 90%;
+   .container {
+       width: 100%;
+       position: relative;
+       margin-bottom: 1em;
    }
 
    .me {
        width: 100%;
    }
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }
