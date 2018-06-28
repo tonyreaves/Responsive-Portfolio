@@ -1,8 +1,3 @@
-.about {
-    float:left;
-    color:#777;
-    size: 18px;
-}
 
 .anav {
     color: #777;
@@ -10,24 +5,20 @@
     padding: 1px;
 }
 
+a:link {
+    transition: 0.33s ease;
+    }
+
 article {
     padding-bottom: 20px;
 }
 
-.bodyClass {
+body {
     background-image: url("../../Images/light-grey-terrazzo.png");
     /* Background pattern from Toptal Subtle Patterns */
     position: relative;
-}
-
-br {
-    clear: both;
-}
-
-.button {
-background-color:  #4aaaa5;
-color:#fff;
-padding: 10px 20px 10px 20px;
+    display: flex;
+    height: 100vh;
 }
 
 form {
@@ -35,35 +26,36 @@ form {
 }
 
 h1 {
-    background-color: #4aaaa5;
-    color: white;
+    background-color: #A76D60;
+    color: #F7F9F9;
     float: left;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 36px;
     padding: 10px;
     text-align: left;
   }
 
 .headClass {
-    align-self: center;
-    background-color:#fff ;
+    background-color:#F7F9F9 ;
     border: 1px;
     border-bottom: 2px solid grey;
-    border-color: #4aaaa5;
-    clear: both;
+    border-color: #601700;
     color: #777;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oxygen', sans-serif;
     height:56px;
     margin-bottom: 10px;
-    position:fixed;
+    position: fixed;
     text-decoration: none;
-    text-align: right;
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
 }
 
 .headWidth {
-    width: 90%;
+    width: 88%;
     margin: 0 auto;
 }
 
@@ -72,31 +64,12 @@ a:hover {
     color: #ebebeb;
 }
 
-.line {
-    color: #777;
-    height:1px; 
-    width:100%; 
-}
-
-.fields, select, textarea{
-    align-content: left;
-    border: 1px solid #777; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    color: #777;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 12px; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;
-    width: 100%;
-}
-
 .labelClass {
     color:#777;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1.5em;
     font-size: 18px;
-    text-align: left;
+    float: left;
     width: 100%;
 }
 
@@ -104,17 +77,17 @@ a:hover {
     background: #4aaaa5;
     bottom: 15px;
     color: #ebebeb;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     padding: 15px;
-    position: absolute;
+    position: relative;
     text-align: center;
-    width:195px;
+    width:245px;
 }
 
 .me {
     float:left;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -122,21 +95,22 @@ a:hover {
 }
 
 
-.myContainer {
+.container {
     background:#ffffff;
     border: 2px solid #ffffff;
-    clear: both;
     color: #fff;
     margin: 0 auto; 
+    margin-top: 5em;
     min-height: 100%;
     padding: 20px;
-    width: 960px;
+    width: 88%;
+    top: 100px;
 }
 
 #nav {
     color: #777;
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oxygen', sans-serif;
     padding-top: 20px;
     text-decoration: none;
     text-align: right;
@@ -145,30 +119,32 @@ a:hover {
 .pageTitle {
     color: #4aaaa5;
     font-size: 30px;
+    font-family: 'Roboto Slab', serif;
     text-align: left;
     width: 960px;
+    margin-bottom: 0.5em;
 }
 
 .photo1 {
     float: left;
-    margin: 10px;
-    position:relative;
+    margin: 20px;
 }
 
 footer{
     background-color:#777;
     border-top: 5px solid #4aaaa5;
     bottom: 0;
-    left: 0;
-    clear:both;
     color: #ebebeb;
+    display: flex;
     height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 10px;
     margin-top: 45px;
-    position: relative;
+    position: fixed;
     text-align: center;
     width: 100%;
+    flex-direction: row;
+    flex: 1;
 }
 
 @media only screen and (max-width: 980px) {
@@ -176,7 +152,7 @@ footer{
 align-content: left;
     }
 
-    .myContainer {
+    .container {
         width: 700px;
         margin: 0 left;
 
@@ -184,18 +160,19 @@ align-content: left;
     .headClass {
         margin: 0 left;
         width: 100%;
+
     }
     #nav {
         width: 350px;
     }
 
     .headWidth {
-        width: 100%;
+        width: 90%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .myContainer {
+    .container {
         width: 70%;
         margin: 0 left;
     }
@@ -206,7 +183,7 @@ align-content: left;
         }
 
     .headWidth {
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -245,11 +222,22 @@ align-content: left;
        padding-top: 15px;
    }
 
-   .myContainer {
+   .container {
        width: 90%;
+       position: relative;
    }
 
    .me {
        width: 100%;
    }
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }
