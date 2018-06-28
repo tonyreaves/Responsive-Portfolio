@@ -5,17 +5,13 @@
     padding: 1px;
 }
 
-a:link {
-    transition: 0.33s ease;
-    }
-
 article {
     padding-bottom: 20px;
+    float: left;
 }
 
 body {
-    background-image: url("../../Images/light-grey-terrazzo.png");
-    /* Background pattern from Toptal Subtle Patterns */
+    background-color: #73683B;
     position: relative;
     display: flex;
     height: 100vh;
@@ -60,12 +56,14 @@ h1 {
 }
 
 a:hover {
-    background-color: #4aaaa5;;
+    background-color: #73683B;;
     color: #ebebeb;
+    transition: 0.33s ease;
+
 }
 
 .labelClass {
-    color:#777;
+    color:#13262F;
     font-family: 'Oxygen', sans-serif;
     line-height: 1.5em;
     font-size: 18px;
@@ -74,7 +72,7 @@ a:hover {
 }
 
 .labelPhoto {
-    background: #4aaaa5;
+    background: #73683B;
     bottom: 15px;
     color: #ebebeb;
     font-family: 'Roboto Slab', serif;
@@ -96,15 +94,15 @@ a:hover {
 
 
 .container {
-    background:#ffffff;
-    border: 2px solid #ffffff;
-    color: #fff;
+    background:#B0A084;
+    color: #13262F;
     margin: 0 auto; 
     margin-top: 5em;
     min-height: 100%;
     padding: 20px;
     width: 88%;
     top: 100px;
+    border-top: 5px solid #583E23;
 }
 
 #nav {
@@ -117,7 +115,7 @@ a:hover {
 }
 
 .pageTitle {
-    color: #4aaaa5;
+    color: #13262F;
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
     text-align: left;
@@ -132,16 +130,15 @@ a:hover {
 
 footer{
     background-color:#777;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid #73683B;
     bottom: 0;
     color: #ebebeb;
     display: flex;
     height: 40px;
     font-family: 'Oxygen', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 45px;
     position: fixed;
-    text-align: center;
     width: 100%;
     flex-direction: row;
     flex: 1;
@@ -155,11 +152,12 @@ align-content: left;
     .container {
         width: 700px;
         margin: 0 left;
-
+        flex: 1;
     }
     .headClass {
         margin: 0 left;
         width: 100%;
+        flex: 1;
 
     }
     #nav {
