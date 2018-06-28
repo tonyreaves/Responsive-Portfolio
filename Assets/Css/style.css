@@ -49,6 +49,15 @@ h1 {
     height: max-content;
 }
 
+.contacts {
+    display: flex;
+}
+
+.contacts div {
+    display: flex;
+    flex-grow: 1;
+}
+
 .headClass {
     background-color:#E5DADA ;
     border: 1px;
@@ -100,19 +109,19 @@ h1 {
 }
 
 .photo1 i {
-    font-size: 45px;
+    font-size: 46px;
     background: #002642;
     border-radius: 50%;
     color: #E5DADA;
     position: absolute;
-    bottom: 52px;
-    right: 5px;
-    border: 1px solid #002642;
+    bottom: 50px;
+    left: 220px;
+    border: 3px solid #002642;
 }
 
 .photo1 i:hover {
     background-color: #E5DADA;;
-    color: #002642;
+    color: #E59500;
     transition: 0.33s ease;  
     border-color: #E5DADA;
 }
