@@ -39,8 +39,7 @@ h1 {
 .container {
     background:#E5DADA;
     color: #02040F;
-    margin: 0 auto; 
-    margin-top: 4em;
+    margin: 4em auto 1em;
     padding: 20px;
     width: 85%;
     top: 25px;
@@ -103,9 +102,19 @@ h1 {
     transition: 0.33s ease; 
 }
 
-.labelPhoto a {
+.labelPhoto p {
     color: #E5DADA;
+}
+
+p.labelText {
     text-decoration: none;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
 
 .photo1 i {
