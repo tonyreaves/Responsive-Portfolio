@@ -156,8 +156,7 @@ h1 {
 }
 
 .me {
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin: .35em 1.25em 1.25em 0;
     float: left;
 }
 
