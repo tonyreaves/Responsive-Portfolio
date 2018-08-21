@@ -1,12 +1,5 @@
-
-.anav {
-    color: #002642;
-    text-decoration: none;
-    padding: 1px;
-}
-
 article {
-    padding-bottom: 20px;
+    padding-bottom: 1.5em;
 }
 
 body {
@@ -22,8 +15,8 @@ h1 {
     color: #F7F9F9;
     float: left;
     font-family: 'Roboto Slab', serif;
-    font-size: 40px;
-    padding: 10px;
+    font-size: 2.5em;
+    padding: 0.25em;
     text-align: left;
   }
 
@@ -34,6 +27,12 @@ h1 {
     font-size: 1.15em;
     float: left;
     width: 95%;
+}
+
+.anav {
+    color: #002642;
+    text-decoration: none;
+    padding: .1em;
 }
 
 .container {
@@ -68,12 +67,12 @@ h1 {
 
 .headClass {
     background-color:#E5DADA ;
-    border: 1px;
-    border-bottom: 2px solid grey;
+    border: .16em;
+    border-bottom: .2em solid;
     border-color: #002642;
     font-family: 'Oxygen', sans-serif;
-    height:60px;
-    margin-bottom: 10px;
+    height: 3.7em;
+    margin-bottom: 0.8em;
     position: fixed;
     text-decoration: none;
     width: 100%;
@@ -94,14 +93,14 @@ h1 {
 
 .labelPhoto {
     background: #840032;
-    bottom: 55px;
+    bottom: 2.9em;
     color: #E5DADA;
     justify-content: stretch;
     display: flex;
     font-family: 'Roboto Slab', serif;
-    font-size: 19px;
+    font-size: 1.2em;
     position: relative;
-    width: 275px;
+    width: 14.33em;
     text-decoration: none;
 }
 .labelPhoto a {
@@ -118,7 +117,6 @@ h1 {
 
 .labelPhoto p {
     text-decoration: none;
-
 }
 
 .labelText {
@@ -134,14 +132,14 @@ h1 {
 }
 
 .photo1 i {
-    font-size: 46px;
+    font-size: 2.9em;
     background: #002642;
     border-radius: 50%;
     color: #E5DADA;
     position: absolute;
-    bottom: 50px;
-    left: 220px;
-    border: 3px solid #002642;
+    bottom: 1.075em;
+    left: 4.6em;
+    border: .063em solid #002642;
 }
 
 .photo1 i:hover {
@@ -152,7 +150,7 @@ h1 {
 }
 
 .labelText {
-    padding: 10px 0px 10px 10px;;
+    padding: .5em 0 .5em .4em;
 }
 
 .me {
@@ -164,14 +162,14 @@ h1 {
     color: #02040F;
     font-family: 'Oxygen', sans-serif;
     font-weight: 500;
-    padding-top: 22px;
+    padding-top: 1.3em;
     text-decoration: none;
     text-align: right;
 }
 
 .pageTitle {
     color: #13262F;
-    font-size: 32px;
+    font-size: 2em;
     font-family: 'Roboto Slab', serif;
     text-align: left;
     margin-bottom: 0.5em;
@@ -179,9 +177,10 @@ h1 {
 }
 
 .photo1 {
-    margin: 15px;
+    margin: 0.9em;
     float: left;
     position: relative;
+    width: 17.5em
 }
 
 section a:hover {
@@ -194,9 +193,9 @@ footer{
     background-color:#002642;
     bottom: 0;
     color: #ebebeb;
-    height: 40px;
+    height: 3em;
     font-family: 'Oxygen', sans-serif;
-    font-size: 12px;
+    font-size: .8em;
     position: fixed;
     width: 100%;
 }
@@ -244,12 +243,12 @@ align-content: left;
 
 @media only screen and (max-width: 640px) {
    .anav {
-    height: 28px;
+    height: 3.5em;
     text-align: center;
    }
 
    .headClass {
-    height: 100px;
+    height: 5.5em;
     background: #E5DADA;
     width: 100%;
    }
@@ -270,7 +269,7 @@ align-content: left;
 
    #nav {
        width:100%;
-       height: 50px;
+       height: 4em;
        text-align: center;
    }
 
