@@ -269,8 +269,8 @@ align-content: left;
        text-align: center;
    }
 
-   .photo1 {
-       width: 90%;
+   .photo {
+       margin: 0 auto;
    }
 
    #nav {
@@ -288,6 +288,11 @@ align-content: left;
    .me {
        width: 100%;
    }
+
+   footer {
+    padding:0;
+    text-align: center;
+}
 }
 
 .cf:before,
